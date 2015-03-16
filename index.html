@@ -54,7 +54,7 @@
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>The Solution</h2>
+    <h2>The solution</h2>
   </hgroup>
   <article data-timings="">
     <p>Using the weight of the car and the number of cylinders of the car, we can predict its likely miles per gallon using historical auto data available in the R package.</p>
@@ -68,7 +68,9 @@
     <h2>mpg ~ wt + cyl</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">data(mtcars);library(ggplot2);qplot(wt,mpg,colour=factor(cyl),data=mtcars)
+    <p>As the weight and cylinder count increase, MPG decreases</p>
+
+<pre><code class="r">data(mtcars);library(ggplot2);qplot(wt,mpg,colour=factor(cyl),data=mtcars)
 </code></pre>
 
 <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
@@ -82,7 +84,7 @@
     <h2>Try it @ raz2raz.shinyapps.io/part1</h2>
   </hgroup>
   <article data-timings="">
-    <iframe src=http:/raz2raz.shinyapps.io/part1/></iframe>
+    <p><a href="http:/raz2raz.shinyapps.io/part1/">MPG Predictor</a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -100,7 +102,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='The Solution'>
+        data-slide=2 title='The solution'>
          2
       </a>
     </li>

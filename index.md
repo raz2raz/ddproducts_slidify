@@ -17,14 +17,14 @@ When purchasing a used car, it can be very difficult to predict its miles per ga
 
 --- 
 
-## The Solution
+## The solution
 
 Using the weight of the car and the number of cylinders of the car, we can predict its likely miles per gallon using historical auto data available in the R package.
 
 --- 
 
 ## mpg ~ wt + cyl
-
+As the weight and cylinder count increase, MPG decreases
 
 ```r
 data(mtcars);library(ggplot2);qplot(wt,mpg,colour=factor(cyl),data=mtcars)
@@ -36,5 +36,4 @@ data(mtcars);library(ggplot2);qplot(wt,mpg,colour=factor(cyl),data=mtcars)
 
 ## Try it @ raz2raz.shinyapps.io/part1
 
-<iframe src=http:/raz2raz.shinyapps.io/part1/></iframe>
-
+[MPG Predictor](http:/raz2raz.shinyapps.io/part1/)
