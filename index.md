@@ -38,9 +38,9 @@ Using the weight of the car and the number of cylinders of the car, we can predi
 
 ## Try it @ raz2raz.shinyapps.io/part1
 
-[MPG Predictor](http:/raz2raz.shinyapps.io/part1/)
+[MPG Predictor](http://raz2raz.shinyapps.io/part1/)
 
-<a href="http:/raz2raz.shinyapps.io/part1/" target="_blank">
+<a href="http://raz2raz.shinyapps.io/part1/" target="_blank">
 <div style='text-align: center; border: 1px solid black'>
     <img height='400' src='assets/img/MPGPred.png' />
 </div>
