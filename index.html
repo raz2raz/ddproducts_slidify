@@ -48,16 +48,22 @@
   <article data-timings="">
     <p>When purchasing a used car, it can be very difficult to predict its miles per gallon based on the limited information available.</p>
 
+<div style='text-align: center;'>
+    <img height='400' src='assets/img/used-car.jpg' />
+</div>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>The solution</h2>
+    <h2>mpg ~ wt + cyl</h2>
   </hgroup>
   <article data-timings="">
-    <p>Using the weight of the car and the number of cylinders of the car, we can predict its likely miles per gallon using historical auto data available in the R package.</p>
+    <p>As the weight and cylinder count increase, MPG decreases</p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -65,15 +71,12 @@
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>mpg ~ wt + cyl</h2>
+    <h2>The solution</h2>
   </hgroup>
   <article data-timings="">
-    <p>As the weight and cylinder count increase, MPG decreases</p>
+    <p>Using the weight of the car and the number of cylinders of the car, we can predict its likely miles per gallon using historical auto data available in the R package.</p>
 
-<pre><code class="r">data(mtcars);library(ggplot2);qplot(wt,mpg,colour=factor(cyl),data=mtcars)
-</code></pre>
-
-<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -85,6 +88,14 @@
   </hgroup>
   <article data-timings="">
     <p><a href="http:/raz2raz.shinyapps.io/part1/">MPG Predictor</a></p>
+
+<p><a href="http:/raz2raz.shinyapps.io/part1/" target="_blank"></p>
+
+<div style='text-align: center; border: 1px solid black'>
+    <img height='400' src='assets/img/MPGPred.png' />
+</div>
+
+<p></a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -102,13 +113,13 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='The solution'>
+        data-slide=2 title='mpg ~ wt + cyl'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='mpg ~ wt + cyl'>
+        data-slide=3 title='The solution'>
          3
       </a>
     </li>
